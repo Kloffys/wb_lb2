@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Демонстрація CSS</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        h1 {
+            color: darkblue;
+            text-align: center;
+        }
+
+        .highlight {
+            background-color: yellow;
+            font-weight: bold;
+        }
+
+        #special {
+            color: white;
+            background-color: darkgreen;
+            padding: 10px;
+            border-radius: 8px;
+            width: 200px;
+            text-align: center;
+            position: absolute;
+            right: 20px;
+            top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Демонстрація різних способів CSS</h1>
+    <p style="color: red;">Це приклад <b>inline</b> стилю (червоний текст).</p>
+    <p class="highlight">Цей текст оформлений за допомогою класу (.highlight).</p>
+    <div id="special">Абсолютне позиціонування</div>
+    <div class="container">
+        <img src="images/000.jpg" alt="Зображення" class="float-img" width="300" height="300">
+        <p>
+            Це приклад використання властивості <b>float</b>. Зображення зліва, а текст його обтікає.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ac sem vitae eros facilisis suscipit.
+        </p>
+    </div>
+
+</body>
+
+</html>
