@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background: #fde9b4;
+    background: gold;
     padding: 20px;
 }
 
@@ -29,8 +29,7 @@ label {
 }
 
 input[type="checkbox"]:checked+label {
-    background: #4caf50;
-    /* зелений */
+    background: greenyellow;
     color: white;
 }
 
@@ -52,7 +51,7 @@ input[type="checkbox"]:checked+label {
 
 .item.large {
     flex-basis: 100%;
-    background: #4caf50;
+    background: greenyellow;
     height: 100px;
     color: white;
 }
